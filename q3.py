@@ -35,6 +35,12 @@ print("The inverse of the matrix A::")
 libf.print_mat(libf.transpo(p1)) 
 
 b=libf.transpo(p1)
-with open("new_file.csv","w+") as my_csv:
+with open("Q3_inverse.csv","w+") as my_csv:
     csvWriter = csv.writer(my_csv,delimiter=',')
     csvWriter.writerows(b)
+    
+    
+'''
+OUTPUT:- inverse matrix in Q3_inverse.csv
+'''
+    
